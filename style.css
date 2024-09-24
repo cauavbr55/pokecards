@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.app {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.app > .imgCard {
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
+    justify-content: center;
+    justify-content: center;
+    width: 80%;
+    padding: 2em;
+    box-shadow: 0 0 10px 1px rgb(159, 159, 159);
+}
+
+.app > .imgCard > img {
+    width: 40%;
+    margin: auto;
+}
+
+.app > .imgCard > button {
+    padding: 0.5rem;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(191, 191, 191);
+}
+
+.onInfo {
+    display: none;
+}
